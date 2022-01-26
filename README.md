@@ -218,8 +218,8 @@ services:
 
 ```shell
 $ docker-compose build --no-cache
-$ docker-compose up --force-recreate
-
+$ docker-compose up -d --force-recreate
+$ docker-compose down
 ```
 
 After running the application you can visit `http://localhost:8080`.	
