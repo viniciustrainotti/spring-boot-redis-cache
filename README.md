@@ -208,10 +208,10 @@ services:
 
 ## Build & Run Application
 
-* Build Java Jar.
+* Build Java Jar without Tests.
 
 ```shell
- $ mvn clean install
+ $ mvn clean install -DskipTests
 ```
 
 *  Docker Compose Build and Run
